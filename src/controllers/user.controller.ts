@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
 import { Controller } from "@nestjs/common";
 
-@Controller('lance')
-export class LanceController {}
+@Controller('user')
+export class UserController {}
