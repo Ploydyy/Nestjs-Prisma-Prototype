@@ -1,14 +1,13 @@
 /* eslint-disable prettier/prettier */
 import { ApiProperty } from "@nestjs/swagger";
 
-export class UserDto {
+export class CatDto {
    @ApiProperty()
    id: number;
 
    @ApiProperty()
-   firstName: string;
+   fullName: string;
 
    @ApiProperty()
-   lastName: string;
-
+   birthDay: Date;
 }
